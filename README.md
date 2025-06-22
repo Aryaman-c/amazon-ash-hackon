@@ -1,50 +1,61 @@
 # Amazon-Green
 
-Amazon-Green is a modern e-commerce web application focused on sustainable and eco-friendly products. It provides a marketplace experience similar to Amazon, with features tailored for green shopping and learning about sustainability.
+### Team Name: ASH  
+### Team Members:
+- Aryaman  
+- Harsh Upadhyay  
+
+### Website:  
+[Amazon-Green](https://amazongreen.vercel.app)
+
+### Idea Submission:  
+[Idea]()
+
+---
+
+## Project Overview
+
+**Amazon-Green** is a modern e-commerce web application that integrates with Amazon to focus exclusively on sustainable and eco-friendly products. It replicates the familiar marketplace experience while promoting conscious consumerism and environmental awareness.
+
+Users can explore verified green products, track their eco-friendly shopping habits, and learn about sustainability through interactive content.
+
+---
 
 ## Features
-- Browse and search for eco-friendly products
-- Add products to cart and place orders
-- Customer and seller dashboards
-- Product reviews and ratings
-- Green points and rewards system
-- Quizzes and learning modules about sustainability
+
+- Browse and search for eco-friendly products  
+- Add products to cart and place orders  
+- Customer and seller dashboards  
+- Product reviews and ratings  
+- Green points and rewards system  
+- Quizzes and learning modules about sustainability  
 - Order history and ongoing order tracking
 
-## Getting Started
+---
 
-### Prerequisites
-- Node.js (v16 or above recommended)
-- npm or pnpm
+## Site Pages
 
-### Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/HarshUpadhyay30/Amazon-Green.git
-   cd Amazon-Green/amazon-hackon
-   ```
-2. Install dependencies:
-   ```sh
-   npm install
-   # or
-   pnpm install
-   ```
-3. Run the development server:
-   ```sh
-   npm run dev
-   # or
-   pnpm dev
-   ```
-4. Open [http://localhost:3000](http://localhost:3000) to view the app.
+### Entry Point from Amazon  
+A button on the main Amazon page redirects users to the Amazon-Green section.  
+<p align="center"><img src="/public/amazongreen.png" width="700" alt="Amazon-Green Entry Button"></p>
 
-## Project Structure
-- `app/` - Main application pages and routes
-- `components/` - Reusable UI and logic components
-- `lib/` - Data and utility functions
-- `styles/` - Global and component styles
+### Customer Dashboard  
+An interface for customers to manage orders, rewards, and sustainability progress.  
+<p align="center"><img src="/public/customerdashboard.png" width="700" alt="Customer Dashboard"></p>
 
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+### Seller Dashboard  
+Allows sellers to manage eco-friendly product listings and view metrics.  
+<p align="center"><img src="/public/sellerdashboard.png" width="700" alt="Seller Dashboard"></p>
 
-## License
-This project is open source and available under the [MIT License](LICENSE). 
+### Product Categories and Certifications  
+Displays categorized products, each with eco-ratings and verified green certifications.  
+<p align="center"><img src="/public/productimg.png" width="700" alt="Product Section"></p>
+
+---
+
+## Tech Stack
+
+- React.js  
+- HTML  
+- Tailwind CSS  
+- GitHub
